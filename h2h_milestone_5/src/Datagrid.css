@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #565454;
+    border: 7px solid rgb(251, 97, 2);
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: white;
+  }
+  
+  th {
+    background-color: #565454;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #565454;
+  }
+  
+  table tbody tr:last-child td {
+    border-bottom: none;
+}
